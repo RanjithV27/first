@@ -1,0 +1,130 @@
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+body {
+  background-color: rgb(255, 205, 228);
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(10, 10, 9);
+  color: beige;
+  font-style: italic;
+  display: flex;
+}
+h3 {
+  display: inline-flex;
+  background-color: black;
+  color: blanchedalmond;
+}
+
+p {
+  background-color: black;
+  color: blanchedalmond;
+}
+p1 {
+  background-color: brown;
+  color: white;
+}
+p2 {
+  background-color: yellow;
+  color: black;
+}
+p3 {
+  background-color: chartreuse;
+  color: darkblue;
+}
+p20 {
+  font-family: fantasy;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.text-center {
+  text-align: center;
+}
+
+footer {
+  height: 10vh;
+  background-color: black;
+  color: cornsilk;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fruktur", cursive;
+}
+header {
+  background: rgb(255, 51, 0);
+  display: flex;
+}
+
+nav {
+  width: 100%;
+  right: 0px;
+}
+
+nav ul {
+  height: 5px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  padding: 0 20px;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+
+.search {
+  display: flex;
+  width: 400px;
+  height: 50px;
+  justify-content: start;
+  align-items: center;
+}
+.search input {
+  width: 500px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.search button {
+  font-family: "Fruktur", cursive;
+  font-weight: 900px;
+}
+.btn {
+  padding: 5px 10px;
+  color: cornsilk;
+  background-color: rgb(255, 51, 0);
+  border: 2px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.slider {
+  width: center;
+}
+h4 {
+  text-decoration: dotted;
+  background-color: chartreuse;
+}
